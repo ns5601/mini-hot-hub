@@ -1,0 +1,287 @@
+/* ===== HotCard 卡片容器 ===== */
+.hot-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+/* ===== 卡片头部 ===== */
+.hot-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.25rem 0.75rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.hot-card__source {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0;
+}
+
+.hot-card__header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hot-card__refresh {
+  width: 1.6rem;
+  height: 1.6rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  background: #fff;
+  color: #999;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 0;
+  line-height: 1;
+}
+
+.hot-card__refresh:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+  transform: rotate(180deg);
+}
+
+.hot-card__list-name {
+  font-size: 0.8rem;
+  color: #999;
+  background: #f5f5f5;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* ===== 列表区域 ===== */
+.hot-card__list {
+  flex: 1;
+  list-style: none;
+  margin: 0;
+  padding: 0.25rem 0;
+  overflow: hidden;
+}
+
+.hot-card__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1.25rem;
+  border-bottom: 1px solid #fafafa;
+  transition: background 0.15s;
+}
+
+.hot-card__item:last-child {
+  border-bottom: none;
+}
+
+.hot-card__item:hover {
+  background: #f8f9ff;
+}
+
+/* Top 3 行高亮 */
+.hot-card__item--top {
+  padding: 0.55rem 1.25rem;
+  background: linear-gradient(90deg, #fffbf0 0%, #fff 40%);
+}
+
+.hot-card__item--top:hover {
+  background: linear-gradient(90deg, #fff7db 0%, #f8f9ff 40%);
+}
+
+/* ===== 排名 Badge ===== */
+.hot-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  min-width: 1.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  background: #eee;
+  color: #666;
+}
+
+/* Top 3 badge 加大 + 微阴影 */
+.hot-rank--top {
+  width: 1.7rem;
+  height: 1.7rem;
+  min-width: 1.7rem;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+.hot-rank--gold {
+  background: linear-gradient(135deg, #f5af19, #f12711);
+  color: #fff;
+}
+
+.hot-rank--silver {
+  background: linear-gradient(135deg, #b0bec5, #78909c);
+  color: #fff;
+}
+
+.hot-rank--bronze {
+  background: linear-gradient(135deg, #d4a373, #b87333);
+  color: #fff;
+}
+
+/* ===== 标题链接 ===== */
+.hot-card__title {
+  flex: 1;
+  font-size: 0.9rem;
+  color: #333;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.hot-card__title:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+/* ===== 热度文字 ===== */
+.hot-card__heat {
+  font-size: 0.75rem;
+  color: #bbb;
+  flex-shrink: 0;
+  text-align: right;
+  max-width: 5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ===== 错误状态 ===== */
+.hot-card__error {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  color: #999;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.hot-card__retry {
+  margin-top: 0.75rem;
+  padding: 0.4rem 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  color: #666;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.hot-card__retry:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+/* ===== 骨架屏 ===== */
+.hot-card__skeleton {
+  flex: 1;
+  padding: 0.25rem 0;
+}
+
+.hot-card__skeleton-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1.25rem;
+}
+
+.hot-card__skeleton-rank {
+  width: 1.5rem;
+  height: 1.5rem;
+  min-width: 1.5rem;
+  border-radius: 4px;
+  background: #e8e8e8;
+  animation: shimmer 1.6s ease-in-out infinite;
+}
+
+.hot-card__skeleton-title {
+  height: 0.85rem;
+  border-radius: 4px;
+  background: #e8e8e8;
+  animation: shimmer 1.6s ease-in-out infinite;
+  animation-delay: 0.1s;
+}
+
+.hot-card__skeleton-heat {
+  width: 3rem;
+  height: 0.75rem;
+  border-radius: 4px;
+  background: #e8e8e8;
+  animation: shimmer 1.6s ease-in-out infinite;
+  animation-delay: 0.2s;
+}
+
+@keyframes shimmer {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.4; }
+}
+
+/* ===== 卡片底部时间 ===== */
+.hot-card__footer {
+  padding: 0.6rem 1.25rem;
+  font-size: 0.75rem;
+  color: #bbb;
+  border-top: 1px solid #f0f0f0;
+  text-align: right;
+}
+
+/* ===== 移动端优化 ===== */
+@media (max-width: 768px) {
+  .hot-card__header {
+    padding: 1rem 1rem 0.6rem;
+  }
+
+  .hot-card__source {
+    font-size: 1rem;
+  }
+
+  .hot-card__item {
+    padding: 0.4rem 1rem;
+  }
+
+  .hot-card__item--top {
+    padding: 0.5rem 1rem;
+  }
+
+  .hot-card__title {
+    font-size: 0.85rem;
+  }
+
+  .hot-card__heat {
+    font-size: 0.7rem;
+  }
+
+  .hot-card__footer {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+
+  .hot-card__skeleton-row {
+    padding: 0.4rem 1rem;
+  }
+}

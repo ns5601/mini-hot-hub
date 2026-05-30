@@ -1,0 +1,56 @@
+[
+  {
+    "source": "weibo",
+    "sourceName": "微博",
+    "listName": "热搜榜",
+    "updatedAt": "2026-05-29T10:00:00+08:00",
+    "items": [
+      { "rank": 1, "title": "OpenAI 发布 GPT-6 系列模型", "heat": "982万", "url": "https://s.weibo.com/weibo?q=OpenAI%20%E5%8F%91%E5%B8%83%20GPT-6" },
+      { "rank": 2, "title": "苹果 WWDC 2026 开发者大会定档", "heat": "876万", "url": "https://s.weibo.com/weibo?q=%E8%8B%B9%E6%9E%9CWWDC2026" },
+      { "rank": 3, "title": "《黑神话：悟空》DLC 新预告曝光", "heat": "765万", "url": "https://s.weibo.com/weibo?q=%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BADLC" },
+      { "rank": 4, "title": "中国航天：嫦娥九号月球科研站计划公布", "heat": "654万", "url": "https://s.weibo.com/weibo?q=%E5%AB%A6%E5%A8%A5%E4%B9%9D%E5%8F%B7" },
+      { "rank": 5, "title": "华为发布新一代鸿蒙 PC 操作系统", "heat": "589万", "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E9%B8%BF%E8%92%99PC" },
+      { "rank": 6, "title": "NBA 季后赛：湖人晋级西部决赛", "heat": "521万", "url": "https://s.weibo.com/weibo?q=NBA%E5%AD%A3%E5%90%8E%E8%B5%9B%E6%B9%96%E4%BA%BA" },
+      { "rank": 7, "title": "五一档电影票房突破 50 亿", "heat": "478万", "url": "https://s.weibo.com/weibo?q=%E4%BA%94%E4%B8%80%E6%A1%A3%E7%94%B5%E5%BD%B1%E7%A5%A8%E6%88%BF" },
+      { "rank": 8, "title": "特斯拉 Optimus 机器人进入量产阶段", "heat": "432万", "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%96%AF%E6%8B%89Optimus" },
+      { "rank": 9, "title": "高考倒计时 10 天，各地备考氛围拉满", "heat": "398万", "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E8%80%83%E5%80%92%E8%AE%A1%E6%97%B6" },
+      { "rank": 10, "title": "某顶流明星官宣恋情引热议", "heat": "367万", "url": "https://s.weibo.com/weibo?q=%E9%A1%B6%E6%B5%81%E6%98%8E%E6%98%9F%E5%AE%98%E5%AE%A3%E6%81%8B%E6%83%85" }
+    ]
+  },
+  {
+    "source": "zhihu",
+    "sourceName": "知乎",
+    "listName": "热榜",
+    "updatedAt": "2026-05-29T10:00:00+08:00",
+    "items": [
+      { "rank": 1, "title": "如何评价 GPT-6 在推理能力上的突破？", "heat": "4500 万热度", "url": "https://www.zhihu.com/search?type=content&q=GPT-6%20%E6%8E%A8%E7%90%86%E8%83%BD%E5%8A%9B" },
+      { "rank": 2, "title": "2026 年了，前端还需要学 React 吗？", "heat": "3800 万热度", "url": "https://www.zhihu.com/search?type=content&q=%E5%89%8D%E7%AB%AF%E8%BF%98%E9%9C%80%E8%A6%81%E5%AD%A6React%E5%90%97" },
+      { "rank": 3, "title": "为什么国内大厂的 AI 产品总是慢半拍？", "heat": "3200 万热度", "url": "https://www.zhihu.com/search?type=content&q=%E5%9B%BD%E5%86%85%E5%A4%A7%E5%8E%82AI%E4%BA%A7%E5%93%81" },
+      { "rank": 4, "title": "《黑神话：悟空》DLC 值不值得买？", "heat": "2900 万热度", "url": "https://www.zhihu.com/search?type=content&q=%E9%BB%91%E7%A5%9E%E8%AF%9DDLC%E5%80%BC%E4%B8%8D%E5%80%BC%E5%BE%97%E4%B9%B0" },
+      { "rank": 5, "title": "鸿蒙 PC 能替代 Windows 吗？深度体验报告", "heat": "2600 万热度", "url": "https://www.zhihu.com/search?type=content&q=%E9%B8%BF%E8%92%99PC%E6%9B%BF%E4%BB%A3Windows" },
+      { "rank": 6, "title": "Vibe Coding 真的能提升开发效率吗？", "heat": "2400 万热度", "url": "https://www.zhihu.com/search?type=content&q=Vibe%20Coding%20%E5%BC%80%E5%8F%91%E6%95%88%E7%8E%87" },
+      { "rank": 7, "title": "特斯拉机器人进工厂，工人会失业吗？", "heat": "2100 万热度", "url": "https://www.zhihu.com/search?type=content&q=%E7%89%B9%E6%96%AF%E6%8B%89%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%A4%B1%E4%B8%9A" },
+      { "rank": 8, "title": "房价还会继续跌吗？2026 楼市深度分析", "heat": "1900 万热度", "url": "https://www.zhihu.com/search?type=content&q=2026%E6%A5%BC%E5%B8%82%E5%88%86%E6%9E%90" },
+      { "rank": 9, "title": "月球科研站：人类离定居月球还有多远？", "heat": "1700 万热度", "url": "https://www.zhihu.com/search?type=content&q=%E6%9C%88%E7%90%83%E7%A7%91%E7%A0%94%E7%AB%99" },
+      { "rank": 10, "title": "为什么年轻人越来越不愿去大厂了？", "heat": "1500 万热度", "url": "https://www.zhihu.com/search?type=content&q=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E4%B8%8D%E6%84%BF%E5%8E%BB%E5%A4%A7%E5%8E%82" }
+    ]
+  },
+  {
+    "source": "bilibili",
+    "sourceName": "B站",
+    "listName": "综合热门",
+    "updatedAt": "2026-05-29T10:00:00+08:00",
+    "items": [
+      { "rank": 1, "title": "【GPT-6 首发评测】这是我见过最像人的 AI", "heat": "520万", "url": "https://search.bilibili.com/all?keyword=GPT-6%20%E9%A6%96%E5%8F%91%E8%AF%84%E6%B5%8B" },
+      { "rank": 2, "title": "华为鸿蒙 PC 深度体验：国产系统真的成了？", "heat": "480万", "url": "https://search.bilibili.com/all?keyword=%E9%B8%BF%E8%92%99PC%E6%B7%B1%E5%BA%A6%E4%BD%93%E9%AA%8C" },
+      { "rank": 3, "title": "黑神话悟空 DLC 全流程实况解说", "heat": "450万", "url": "https://search.bilibili.com/all?keyword=%E9%BB%91%E7%A5%9E%E8%AF%9DDLC%E5%AE%9E%E5%86%B5" },
+      { "rank": 4, "title": "【4K 航拍】嫦娥九号发射全程记录", "heat": "410万", "url": "https://search.bilibili.com/all?keyword=%E5%AB%A6%E5%A8%A5%E4%B9%9D%E5%8F%B7%E5%8F%91%E5%B0%84" },
+      { "rank": 5, "title": "我用 AI 做了一个自动写代码的 VSCode 插件", "heat": "380万", "url": "https://search.bilibili.com/all?keyword=AI%20VSCode%20%E6%8F%92%E4%BB%B6" },
+      { "rank": 6, "title": "【Vibe Coding 教程】零基础小白也能做全栈", "heat": "350万", "url": "https://search.bilibili.com/all?keyword=Vibe%20Coding%20%E6%95%99%E7%A8%8B" },
+      { "rank": 7, "title": "春晚级！2026 高校毕业典礼神作合集", "heat": "320万", "url": "https://search.bilibili.com/all?keyword=%E6%AF%95%E4%B8%9A%E5%85%B8%E7%A4%BC%E7%A5%9E%E4%BD%9C" },
+      { "rank": 8, "title": "特斯拉机器人去工厂上班第一天", "heat": "290万", "url": "https://search.bilibili.com/all?keyword=%E7%89%B9%E6%96%AF%E6%8B%89%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B7%A5%E5%8E%82" },
+      { "rank": 9, "title": "高考前 10 天怎么复习？清北学长在线支招", "heat": "260万", "url": "https://search.bilibili.com/all?keyword=%E9%AB%98%E8%80%83%E5%A4%8D%E4%B9%A0%E6%94%AF%E6%8B%9B" },
+      { "rank": 10, "title": "从零搭建一个热搜聚合网站（React+Express）", "heat": "240万", "url": "https://search.bilibili.com/all?keyword=%E7%83%AD%E6%90%9C%E8%81%9A%E5%90%88%E7%BD%91%E7%AB%99" }
+    ]
+  }
+]

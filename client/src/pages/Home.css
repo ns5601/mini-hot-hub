@@ -1,0 +1,132 @@
+/* ===== Home 页面 ===== */
+
+.home-loading {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: #999;
+  font-size: 1rem;
+}
+
+.home-header {
+  text-align: center;
+  padding: 2.5rem 1rem 1.5rem;
+}
+
+.home-header h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0;
+}
+
+.home-header p {
+  color: #888;
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.home-header__refresh-all {
+  margin-top: 0.75rem;
+  padding: 0.4rem 1.1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  color: #666;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.home-header__refresh-all:hover {
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+/* ===== 卡片网格 ===== */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 1.25rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+/* 中等屏幕：2 列 */
+@media (max-width: 1024px) {
+  .home-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 移动端：1 列 */
+@media (max-width: 768px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .home-header {
+    padding: 1.5rem 1rem 1rem;
+  }
+
+  .home-header h1 {
+    font-size: 1.4rem;
+  }
+}
+
+/* 小屏手机：更紧凑 */
+@media (max-width: 480px) {
+  .home-grid {
+    padding: 0.75rem;
+    gap: 0.75rem;
+  }
+
+  .home-header {
+    padding: 1.25rem 0.75rem 0.75rem;
+  }
+
+  .home-header h1 {
+    font-size: 1.25rem;
+  }
+
+  .home-header p {
+    font-size: 0.85rem;
+  }
+
+  .home-footer {
+    padding: 1rem 0.75rem 2rem;
+    font-size: 0.72rem;
+  }
+}
+
+/* ===== 页脚 ===== */
+.home-footer {
+  text-align: center;
+  padding: 1.5rem 1rem 2.5rem;
+  color: #bbb;
+  font-size: 0.8rem;
+  line-height: 1.8;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.home-footer__text {
+  margin: 0.3rem 0;
+}
+
+.home-footer__text strong {
+  font-weight: 600;
+  color: #999;
+}
+
+.home-footer__link {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.home-footer__link:hover {
+  text-decoration: underline;
+}
