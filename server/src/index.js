@@ -14,9 +14,19 @@ app.use((req, _res, next) => {
   next();
 });
 
-// CORS: allow Vite dev server (any port)
+// CORS: allow Vite dev server + Vercel production
+const ALLOWED_ORIGINS = [
+  /^http:\/\/localhost:\d+$/,
+  /^https:\/\/mini-hot-hub.*\.vercel\.app$/,
+];
 app.use(cors({
-  origin: /^http:\/\/localhost:\d+$/,
+  origin: (origin, callback) => {
+    if (!origin || ALLOWED_ORIGINS.some((r) => r.test(origin))) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
 }));
 
 // ===== 平台元数据（error 态兜底用） =====
